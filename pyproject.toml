@@ -1,0 +1,26 @@
+[project]
+name = "intro-to-ray"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "diffusers[torch]",
+    "fastapi",
+    "ipywidgets",
+    "ipykernel",
+    "lightning",
+    "matplotlib",
+    "notebook",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "ray[default]==2.46.0",
+    "ray[serve]==2.46.0",
+    "ray[tune]==2.46.0",
+    "scikit-learn",
+    "torch",
+    "torchvision",
+    "transformers",
+    "xgboost",
+]
